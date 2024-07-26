@@ -184,7 +184,7 @@ span {
   gap: 4rem;
 }
 
-.button {
+.button { 
   all: unset;
   display: flex;
   align-items: center;
@@ -223,7 +223,7 @@ span {
   background: var(--main-color);
   opacity: 50%;
   border-radius: 50%;
-  transition: transform 500ms, background 300ms;
+  transition: transform 500ms, background: 300ms;
 }
 
 /* Second Button */
