@@ -19,12 +19,15 @@
   --sec-bg-color: #121212;
   --text-color: #fff;
   /* --main-color: #fd560d; */
-  --main-color: #00b4d8;
+  --main-color: aqua;
+  
+ 
 }
 
 html {
   font-size: 62.5%;
   overflow-x: hidden;
+ 
 }
 
 section {
@@ -117,6 +120,7 @@ html::-webkit-scrollbar-thumb {
 .home-img img {
   position: relative;
   width: 32vw;
+  height: 34vw;
   aspect-ratio: 0;
   object-fit: cover;
   filter: grayscale(30%);
@@ -285,7 +289,7 @@ span {
 }
 
 .typing-text span::before {
-  content: "Computer Scientist";
+  content: "Frontend developer";
   color: var(--main-color);
   animation: words 20s infinite;
 }
@@ -385,11 +389,7 @@ span {
 }
 
 @keyframes words {
-  0%,
-  20% {
-    content: "Software Engineer";
-  }
-
+  
   21%,
   40% {
     content: "Web Developer";
@@ -402,10 +402,7 @@ span {
   80% {
     content: "Problem Solver";
   }
-  81%,
-  100% {
-    content: "Game Enthusiast";
-  }
+
 }
 
 @keyframes typing {
