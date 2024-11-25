@@ -227,7 +227,7 @@ span {
   background: var(--main-color);
   opacity: 50%;
   border-radius: 50%;
-  transition: transform 500ms, background: 300ms;
+  transition: transform 500ms;
 }
 
 /* Second Button */
@@ -240,7 +240,7 @@ span {
   background: var(--main-color);
   opacity: 50%;
   border-radius: 50%;
-  transition: transform 500ms, background 300ms;
+  transition: transform 500ms;
 }
 
 .button::before {
@@ -364,6 +364,7 @@ span {
 
     .home .home-img img {
       width: 70vh;
+      height: 500px;
       margin-top: 4rem;
     }
   }
